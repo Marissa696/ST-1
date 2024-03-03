@@ -3,7 +3,6 @@
 #include <cstdint>
 #include "alg.h"
 
-
 TEST(PrimeFunctionsTest, CheckPrime) {
 	EXPECT_FALSE(checkPrime(0));
 	EXPECT_FALSE(checkPrime(1));
